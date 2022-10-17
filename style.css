@@ -39,9 +39,11 @@ header {
 header a {
   font-size: 1.5rem;
   color: var(--off-white);
-  animation: heading 7s infinite alternate linear;
+  
 }
-@keyframes heading {
+header a:hover {
+  animation: heading 5s infinite alternate linear;}
+@keyframes heading{
   0% {color: black;}
   25% {color: blue;}
   50% {color: red;}
